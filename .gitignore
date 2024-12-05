@@ -1,0 +1,61 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+.idea
+lib
+myenv
+
+/lib
+/myenv
+
+# Ignore 'lib' and 'myenv' directories in both 'modular_code_facenet' and 'modular_code_vgg'
+modular_code_facenet/lib/
+modular_code_facenet/myenv/
+
+modular_code_vgg/lib/
+modular_code_vgg/myenv/
+
+Data/
+
+modular_code_facenet/prebuilt_models/*.h5
+modular_code_vgg/prebuilt_models/*.h5
